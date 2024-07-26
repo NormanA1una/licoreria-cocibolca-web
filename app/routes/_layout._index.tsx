@@ -5,8 +5,12 @@ import { Paragraph } from "~/components/typography/paragraph";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Licorería Cocibolca" },
+    {
+      name: "description",
+      content:
+        "Bienvenidos a la páginas de la Licorería Cocibolca. Mientras la página se diseña será usada como método de propagación para la vacante.",
+    },
   ];
 };
 

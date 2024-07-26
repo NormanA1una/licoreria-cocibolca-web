@@ -17,6 +17,18 @@ export const links: LinksFunction = () => [
     type: "font/woff2",
     crossOrigin: "anonymous",
   },
+  {
+    rel: "icon",
+    href: "/images/cocibolcaLogo32x32.png",
+    type: "image/png",
+    sizes: "32x32",
+  },
+  {
+    rel: "icon",
+    href: "/images/cocibolcaLogo16x16.png",
+    type: "image/png",
+    sizes: "16x16",
+  },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
