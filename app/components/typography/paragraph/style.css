@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .primary-p-style {
+    @apply text-lg text-[#000000] font-normal leading-[28px];
+  }
+}
